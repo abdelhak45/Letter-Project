@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <title>Letter</title>
+</head>
+<body>
+<center>
+
+  <h1> WELCOM TO letter Project</h1>
+<br>
+<input type="text" id="NameOfSetweb" placeholder="Receiver" required>
+<input type="text" id="userName2" placeholder="Sender"required>
+<br>
+<br>
+<input type="tel" id="number2" placeholder="Sender Phone "maxlength="12" minlength="10" required>
+<input type="text" id="yourAdriss" placeholder="Sender Adriss" required>
+<br>
+<br>
+<input type="date" id="userdate" required><br>
+<br>
+<textarea name="" id="textarea" cols="30" rows="1" placeholder="Your Letter" required></textarea>
+<br>
+<br>
+<button class="btn btn-success" style="font-size: 10px;" id="creat">Creat</button>
+<button class="btn btn-danger" style="font-size: 10px;" id="delet">Delet</button>
+
+</center>
+
+<hr>
+<div  class="invoice " style="margin: 10px;">
+  <button id="lot" class="btn btn-dark" style="width: 100%;">Deleted All</button>
+    <div id="prent" class="parent-invoice p-5"  style="padding: 10px; margin: 5% auto; background-color: #ddd; max-width: 1000px; border: 1px solid rgb(221, 207, 207);border-radius: 2px;">
+    <div class="logo-some" style=" display: flex; justify-content: space-between;">
+        <div class="logo" >
+            <h1 id="consome">
+                Name Of Set Web
+            </h1>
+        </div>
+        <div class="some" >
+            <h1 id="con">INVOICE</h1>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="title-invoi" style=" display: flex; justify-content: space-between;">
+        <div class="title">
+                <b id="bold">Sender:</b>
+                <p id="userName" style="margin-bottom: -2px;">User Name</p>
+                <p id="number" style="margin-bottom: -2px;">User Number</p>
+                <p id="adres" style="margin-bottom: -2px;">Line Adres</p>
+        </div>
+        <div class="invoi">
+            <p id="para" style="margin-bottom: -2px;">The Date :</p>
+            <p id="date" style="margin-bottom: -2px;">The Date </p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+      <div class="tabaall" style="width: 100%; margin: 20px auto; margin-top: -20px;">
+        <p id="p" class="text-success">- Your Paragraph / Letter / Messsage</p>
+      </div>
+      </div>
+      <div>
+        <h4 style="margin-top: 10% ;">
+          Thank you !
+        </h4>
+      </div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- <div>
+        <button class=" me-2 btn btn-danger"  id="btn">Change Color</button>
+        <p id="span"><b>background-color: <span class="ms-2"  style="color: green;" id="p"></span>;</b></p>
+</div> 
+ -->
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
